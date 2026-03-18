@@ -1,0 +1,99 @@
+{
+  "generation_mode": "flux_txt2img",
+  "positive_prompt": "banana sushi",
+  "width": 1168,
+  "height": 880,
+  "seed": 2817776174,
+  "steps": 6,
+  "model": {
+    "key": "58548a23-f7c1-451b-a643-7c3ac85a088c",
+    "hash": "blake3:43127e572fa58c78cec72ca599f6a2d53504fcbd178330f1d8c9dd7e81194b4a",
+    "name": "FLUX Schnell (Quantized)",
+    "base": "flux",
+    "type": "main"
+  },
+  "vae": {
+    "key": "9b95861c-038c-4280-a0d8-ff5767a00c62",
+    "hash": "blake3:ce21cb76364aa6e2421311cf4a4b5eb052a76c4f1cd207b50703d8978198a068",
+    "name": "FLUX.1-schnell_ae",
+    "base": "flux",
+    "type": "vae"
+  },
+  "guidance": 2.5,
+  "t5_encoder": {
+    "key": "16ac9cb9-662b-42ad-9468-ccdf2fab1850",
+    "hash": "blake3:384b4c30810345775c9fb9856adf16b0891f3572585c6e75b7fef222b7c12a6e",
+    "name": "SD3.5 Medium",
+    "base": "sd-3",
+    "type": "main"
+  },
+  "clip_embed_model": {
+    "key": "40bc11d8-95b7-4f53-82f7-4a5a0aa210c5",
+    "hash": "blake3:17c19f0ef941c3b7609a9c94a659ca5364de0be364a91d4179f0e39ba17c3b70",
+    "name": "clip-vit-large-patch14",
+    "base": "any",
+    "type": "clip_embed"
+  },
+  "regions": [],
+  "canvas_v2_metadata": {
+    "referenceImages": [
+      {
+        "id": "reference_image:eF3tRa9Mi8",
+        "name": null,
+        "isEnabled": false,
+        "isLocked": false,
+        "type": "reference_image",
+        "ipAdapter": {
+          "type": "ip_adapter",
+          "image": {
+            "image_name": "47d67db7-4ff4-4b59-bcf0-1eac7625fab8.png",
+            "width": 2048,
+            "height": 1365
+          },
+          "model": {
+            "key": "793efc5c-33c7-40b0-8ffa-0ca646017f39",
+            "hash": "blake3:be4ead3092dc4456078d1978ace996807c8092584993eb5e32c0fa33bad2e711",
+            "name": "ip-adapter_sdxl_vit-h",
+            "base": "sdxl",
+            "type": "ip_adapter"
+          },
+          "weight": 0.75,
+          "beginEndStepPct": [
+            0,
+            1
+          ],
+          "method": "style_strong",
+          "clipVisionModel": "ViT-H"
+        }
+      }
+    ],
+    "controlLayers": [],
+    "inpaintMasks": [
+      {
+        "id": "inpaint_mask:ltsDqpaxo6",
+        "name": null,
+        "isEnabled": true,
+        "isLocked": false,
+        "type": "inpaint_mask",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "fill": {
+          "style": "diagonal",
+          "color": {
+            "r": 161,
+            "g": 120,
+            "b": 214
+          }
+        },
+        "opacity": 1,
+        "objects": []
+      }
+    ],
+    "rasterLayers": [],
+    "regionalGuidance": []
+  },
+  "app_version": "5.13.0rc3"
+}
+

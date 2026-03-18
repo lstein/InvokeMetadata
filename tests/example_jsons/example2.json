@@ -1,0 +1,48 @@
+{
+  "generation_mode": "flux2_txt2img",
+  "positive_prompt": "Make the subject hold a plate of banana sushi.",
+  "width": 1248,
+  "height": 832,
+  "seed": 510447184,
+  "steps": 4,
+  "model": {
+    "key": "c590ba33-1cf4-437a-98ab-36d2a18a166a",
+    "hash": "blake3:7e144432a5cec1240741505e42f327c7c1cfc181f49d94e50f473c599713d801",
+    "name": "FLUX.2 Klein 4B (FP8)",
+    "base": "flux2",
+    "type": "main"
+  },
+  "vae": {
+    "key": "ee41fd52-3869-428a-bd19-1c913c432eca",
+    "hash": "blake3:531855de70db993d0f6181f82cde27d15411d58b7ffa3b2fdce2b9434c0173c2",
+    "name": "FLUX.2 VAE",
+    "base": "flux2",
+    "type": "vae"
+  },
+  "qwen3_encoder": {
+    "key": "04198228-6d55-4c14-8759-069ae2eb4672",
+    "hash": "blake3:85a30764edfd9a93b00d1b554b4ea73b0d4d982af0c357a6a6a1272204fc1883",
+    "name": "Z-Image Qwen3 Text Encoder",
+    "base": "any",
+    "type": "qwen3_encoder"
+  },
+  "ref_images": [
+    {
+      "id": "reference_image:8uqXYADhoU",
+      "isEnabled": true,
+      "config": {
+        "type": "flux2_reference_image",
+        "image": {
+          "original": {
+            "image": {
+              "image_name": "2b008f33-81be-465b-81e8-566d1559a92a.png",
+              "width": 1200,
+              "height": 1600
+            }
+          }
+        }
+      }
+    }
+  ],
+  "app_version": "6.11.0.rc1"
+}

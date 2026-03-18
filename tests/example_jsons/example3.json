@@ -1,0 +1,63 @@
+{
+    "generation_mode": "flux_txt2img",
+    "positive_prompt": "Banana sushi.",
+    "width": 1024,
+    "height": 1024,
+    "seed": 817767692,
+    "steps": 9,
+    "scheduler": "euler",
+    "model": {
+        "key" : "58548a23-f7c1-451b-a643-7c3ac85a088c",
+        "hash": "blake3:43127e572fa58c78cec72ca599f6a2d53504fcbd178330f1d8c9dd7e81194b4a",
+        "name": "FLUX Schnell (Quantized)",
+        "base": "flux",
+        "type": "main"
+    },
+    "loras": [
+        {
+            "model": {
+                "key" : "8b8068a1-c215-48fc-abdb-15ac6fb20848",
+                "hash": "blake3:70b842bae39db24f05cb6a41e41c38494d082ec4c53688c5fa46683bac57c2b4",
+                "name": "anime_lora",
+                "base": "flux",
+                "type": "lora"
+            },
+            "weight": 0.75
+        },
+        {
+            "model": {
+                "key" : "5f3c3eac-e910-4419-b0cf-da987fb78f46",
+                "hash": "blake3:7aae03bd2b27c1b46341811d2e3d2fa327becb57302b3517216bc836b73aeeb7",
+                "name": "color_adjust",
+                "base": "flux",
+                "type": "lora"
+            },
+            "weight": 0.75
+        }
+    ],
+    "vae": {
+        "key" : "2b45142c-03a1-4640-ae41-4733aeacf484",
+        "hash": "blake3:ce21cb76364aa6e2421311cf4a4b5eb052a76c4f1cd207b50703d8978198a068",
+        "name": "FLUX.1-schnell_ae",
+        "base": "flux",
+        "type": "vae"
+    },
+    "guidance": 4,
+    "dype_preset": "off",
+    "t5_encoder": {
+        "key" : "03ea0d0b-e377-441c-9eaa-f4cdfed92833",
+        "hash": "blake3:12f3f5d4856e684c627c0b5c403ace83a8e8baaf0fa6518cd230b5ec1c519107",
+        "name": "t5_base_encoder",
+        "base": "any",
+        "type": "t5_encoder"
+    },
+    "clip_embed_model": {
+        "key" : "40bc11d8-95b7-4f53-82f7-4a5a0aa210c5",
+        "hash": "blake3:17c19f0ef941c3b7609a9c94a659ca5364de0be364a91d4179f0e39ba17c3b70",
+        "name": "clip-vit-large-patch14",
+        "base": "any",
+        "type": "clip_embed"
+    },
+    "ref_images": [],
+    "app_version": "6.11.0.post1"
+}

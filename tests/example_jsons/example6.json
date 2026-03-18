@@ -1,0 +1,88 @@
+{
+  "generation_mode": "flux_txt2img",
+  "positive_prompt": "strawberry sushi",
+  "width": 832,
+  "height": 1248,
+  "seed": 1710134757,
+  "steps": 6,
+  "model": {
+    "key": "58548a23-f7c1-451b-a643-7c3ac85a088c",
+    "hash": "blake3:43127e572fa58c78cec72ca599f6a2d53504fcbd178330f1d8c9dd7e81194b4a",
+    "name": "FLUX Schnell (Quantized)",
+    "base": "flux",
+    "type": "main"
+  },
+  "vae": {
+    "key": "9b95861c-038c-4280-a0d8-ff5767a00c62",
+    "hash": "blake3:ce21cb76364aa6e2421311cf4a4b5eb052a76c4f1cd207b50703d8978198a068",
+    "name": "FLUX.1-schnell_ae",
+    "base": "flux",
+    "type": "vae"
+  },
+  "guidance": 2.5,
+  "t5_encoder": {
+    "key": "03ea0d0b-e377-441c-9eaa-f4cdfed92833",
+    "hash": "blake3:12f3f5d4856e684c627c0b5c403ace83a8e8baaf0fa6518cd230b5ec1c519107",
+    "name": "t5_base_encoder",
+    "base": "any",
+    "type": "t5_encoder"
+  },
+  "clip_embed_model": {
+    "key": "40bc11d8-95b7-4f53-82f7-4a5a0aa210c5",
+    "hash": "blake3:17c19f0ef941c3b7609a9c94a659ca5364de0be364a91d4179f0e39ba17c3b70",
+    "name": "clip-vit-large-patch14",
+    "base": "any",
+    "type": "clip_embed"
+  },
+  "ref_images": [],
+  "regions": [],
+  "canvas_v2_metadata": {
+    "controlLayers": [
+      {
+        "id": "control_layer:uETFP0V6cg",
+        "name": null,
+        "type": "control_layer",
+        "isEnabled": true,
+        "isLocked": false,
+        "withTransparencyEffect": true,
+        "objects": [
+          {
+            "id": "image:N77NFhj2xE",
+            "type": "image",
+            "image": {
+              "image_name": "7691891f-4509-466b-b0e5-0c9ad2f92ae7.png",
+              "width": 880,
+              "height": 1184
+            }
+          }
+        ],
+        "opacity": 1,
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "controlAdapter": {
+          "type": "controlnet",
+          "model": {
+            "key": "19f56619-dcf3-4cf1-b436-60364a401c03",
+            "hash": "blake3:f1af8193fb35f067aada49ba0c88de97fed4a4c0f4ce8ff16e1eaca731453cc1",
+            "name": "FLUX.1-dev-Controlnet-Union",
+            "base": "flux",
+            "type": "controlnet"
+          },
+          "weight": 0.75,
+          "beginEndStepPct": [
+            0,
+            0.75
+          ],
+          "controlMode": "balanced"
+        }
+      }
+    ],
+    "inpaintMasks": [],
+    "rasterLayers": [],
+    "regionalGuidance": []
+  },
+  "app_version": "6.3.0"
+}
+

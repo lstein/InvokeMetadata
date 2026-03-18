@@ -1,0 +1,23 @@
+{
+    "app_version": "3.0.2post1",
+    "generation_mode": "sdxl_txt2img",
+    "positive_prompt": "naiad",
+    "negative_prompt": "underwater",
+    "width": 1024,
+    "height": 1024,
+    "seed": 645816283,
+    "rand_device": "cpu",
+    "cfg_scale": 7.5,
+    "steps": 30,
+    "scheduler": "euler_a",
+    "clip_skip": 0,
+    "model": {
+        "model_name": "miamodelSFWNSFWSDXL_v20",
+        "base_model": "sdxl",
+        "model_type": "main"
+    },
+    "controlnets": [],
+    "loras": [],
+    "positive_style_prompt": "telephoto",
+    "negative_style_prompt": ""
+}

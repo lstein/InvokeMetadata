@@ -1,0 +1,86 @@
+{
+    "generation_mode": "sdxl_txt2img",
+    "positive_prompt": "banana sushi <comestibles>",
+    "negative_prompt": "",
+    "width": 840,
+    "height": 1256,
+    "seed": 2502644156,
+    "rand_device": "cpu",
+    "cfg_scale": 7.5,
+    "cfg_rescale_multiplier": 0.0,
+    "steps": 25,
+    "scheduler": "euler_k",
+    "model": {
+        "key": "9a512916-abce-4a65-8853-2fb32be75f2b",
+        "hash": "7c709aa82ef0ee34890f0fc9abe0f39f0d1012287d3989922b5c3a8ae84db23d",
+        "name": "Juggernaut",
+        "base": "sdxl",
+        "type": "main"
+    },
+    "loras": [
+        {
+            "model": {
+                "key": "da3e40a2-c03a-4218-99d1-3113d6d41216",
+                "hash": "3e87d1d964914c112d312f6057f1c122e347c064990c729cde21b7967b173fc0",
+                "name": "cyborg_style_xl-alpha",
+                "base": "sdxl",
+                "type": "lora"
+            },
+            "weight": 2.0
+        },
+        {
+            "model": {
+                "key": "31aca1a1-ed83-4d44-a6c5-ecf332df67f6",
+                "hash": "6125f0a392473c0761c6a87f832b6acd663a9853636345f35ac1ae53ec0846c3",
+                "name": "color_adjust",
+                "base": "sdxl",
+                "type": "lora"
+            },
+            "weight": 4.0
+        }
+    ],
+    "vae": {
+        "key": "0cd13d6a-434c-4db9-bfad-7d35c8b4573b",
+        "hash": "6637c1b6f8e67ba745b17cc6602c66ccaa71a49a3e501888f2470f8abcbd804b",
+        "name": "sdxl-vae-fp16-fix",
+        "base": "sdxl",
+        "type": "vae"
+    },
+    "positive_style_prompt": "banana sushi <comestibles>",
+    "negative_style_prompt": "",
+    "control_layers": {
+        "layers": [
+            {
+                "id": "ip_adapter_layer_8d0d9b70-1cfd-4466-b27a-77a8d17b4d30",
+                "type": "ip_adapter_layer",
+                "isEnabled": true,
+                "isSelected": true,
+                "ipAdapter": {
+                    "type": "ip_adapter",
+                    "image": {
+                        "name": "aed311fd-9d2a-4d4d-80b7-4a430c3cfaca.png",
+                        "width": 1024,
+                        "height": 1024
+                    },
+                    "model": {
+                        "key": "4d86ca96-2493-4e6a-9dec-e1b935e3c429",
+                        "hash": "blake3:d8842e90726174759e39f82726379fbfb3947b392ea5da56f21cb0a864c4f20e",
+                        "name": "ip_adapter_sdxl",
+                        "base": "sdxl",
+                        "type": "ip_adapter"
+                    },
+                    "beginEndStepPct": [
+                        0,
+                        1
+                    ],
+                    "method": "full",
+                    "clipVisionModel": "ViT-H",
+                    "weight": 1,
+                    "id": "6a601bba-a89d-420a-af83-8f5fcb0a0f2e"
+                }
+            }
+        ],
+        "version": 3
+    },
+    "app_version": "4.2.3"
+}

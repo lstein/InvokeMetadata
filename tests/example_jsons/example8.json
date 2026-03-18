@@ -1,0 +1,696 @@
+{
+  "canvas_v2_metadata": {
+    "referenceImages": [
+      {
+        "id": "reference_image:Qqa7yZAfmh",
+        "type": "reference_image",
+        "name": null,
+        "isLocked": false,
+        "isEnabled": true,
+        "ipAdapter": {
+          "type": "ip_adapter",
+          "image": {
+            "image_name": "caf09e0d-29f1-4d71-b9ca-37b91d9ae298.png",
+            "width": 281,
+            "height": 179
+          },
+          "model": {
+            "key": "793efc5c-33c7-40b0-8ffa-0ca646017f39",
+            "hash": "blake3:be4ead3092dc4456078d1978ace996807c8092584993eb5e32c0fa33bad2e711",
+            "name": "ip-adapter_sdxl_vit-h",
+            "base": "sdxl",
+            "type": "ip_adapter"
+          },
+          "beginEndStepPct": [
+            0,
+            1
+          ],
+          "method": "full",
+          "clipVisionModel": "ViT-H",
+          "weight": 0.8
+        }
+      }
+    ],
+    "controlLayers": [
+      {
+        "id": "control_layer:pliRLOzEmG",
+        "name": null,
+        "type": "control_layer",
+        "isEnabled": true,
+        "isLocked": false,
+        "withTransparencyEffect": true,
+        "objects": [
+          {
+            "id": "image:UbQxoYJtzq",
+            "type": "image",
+            "image": {
+              "image_name": "3c6daeb8-4cc0-487b-8cef-39a732707938.png",
+              "width": 360,
+              "height": 500
+            }
+          }
+        ],
+        "opacity": 1,
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "controlAdapter": {
+          "type": "t2i_adapter",
+          "model": {
+            "key": "0197bbc9-1897-4eb1-82b6-84495f2cd0b2",
+            "hash": "blake3:b0af8e8cfbac5d95a1180da7bba8132c2fc01bea4dfd739bc02962e040d4cbce",
+            "name": "lineart-sdxl",
+            "base": "sdxl",
+            "type": "t2i_adapter"
+          },
+          "weight": 0.75,
+          "beginEndStepPct": [
+            0,
+            0.75
+          ]
+        }
+      }
+    ],
+    "inpaintMasks": [
+      {
+        "id": "inpaint_mask:iWlum4eRPy",
+        "name": null,
+        "type": "inpaint_mask",
+        "isEnabled": true,
+        "isLocked": false,
+        "objects": [],
+        "opacity": 1,
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "fill": {
+          "style": "diagonal",
+          "color": {
+            "r": 213,
+            "g": 139,
+            "b": 202
+          }
+        }
+      }
+    ],
+    "rasterLayers": [
+      {
+        "id": "raster_layer:j1qqizBanG",
+        "name": null,
+        "type": "raster_layer",
+        "isEnabled": true,
+        "isLocked": false,
+        "objects": [
+          {
+            "id": "image:lJAC6PDJrh",
+            "type": "image",
+            "image": {
+              "image_name": "91b0204b-018e-4a11-b3f9-bd70560dd71c.png",
+              "width": 1024,
+              "height": 1024
+            }
+          }
+        ],
+        "opacity": 1,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "regionalGuidance": [
+      {
+        "id": "regional_guidance:cgcqvp2qUf",
+        "name": null,
+        "isLocked": false,
+        "type": "regional_guidance",
+        "isEnabled": true,
+        "objects": [
+          {
+            "id": "brush_line:H5IPxkXIZR",
+            "type": "brush_line",
+            "points": [
+              200,
+              138,
+              184,
+              148,
+              167,
+              165,
+              162,
+              168,
+              144,
+              190,
+              141,
+              197,
+              136,
+              220,
+              136,
+              227,
+              144,
+              244,
+              159,
+              252,
+              179,
+              256,
+              203,
+              254,
+              225,
+              246,
+              262,
+              223,
+              273,
+              213,
+              282,
+              200,
+              295,
+              171,
+              296,
+              161,
+              295,
+              153,
+              288,
+              139,
+              283,
+              134,
+              257,
+              122,
+              246,
+              122,
+              240,
+              124,
+              225,
+              137,
+              211,
+              152,
+              186,
+              186,
+              181,
+              196,
+              178,
+              209,
+              184,
+              215,
+              190,
+              218,
+              200,
+              220,
+              222,
+              218,
+              239,
+              210,
+              268,
+              191,
+              281,
+              181,
+              291,
+              166,
+              291,
+              159,
+              287,
+              153,
+              281,
+              149,
+              265,
+              149,
+              246,
+              159,
+              225,
+              175,
+              209,
+              190,
+              195,
+              209,
+              174,
+              243,
+              173,
+              252,
+              178,
+              258,
+              192,
+              258,
+              217,
+              249,
+              233,
+              239,
+              265,
+              209,
+              271,
+              200,
+              273,
+              186,
+              268,
+              180,
+              259,
+              178,
+              253,
+              178,
+              238,
+              182,
+              212,
+              196,
+              200,
+              205,
+              193,
+              214
+            ],
+            "strokeWidth": 40,
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            },
+            "clip": {
+              "x": -127.84177997527811,
+              "y": -60.756489493201485,
+              "width": 493.6464771322621,
+              "height": 1145.512978986403
+            }
+          }
+        ],
+        "fill": {
+          "style": "solid",
+          "color": {
+            "r": 131,
+            "g": 214,
+            "b": 131
+          }
+        },
+        "opacity": 0.5,
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "autoNegative": false,
+        "positivePrompt": null,
+        "negativePrompt": null,
+        "referenceImages": [
+          {
+            "id": "regional_guidance_ip_adapter:LfUjAVrRg7",
+            "ipAdapter": {
+              "type": "ip_adapter",
+              "image": {
+                "image_name": "7d1ee271-e3e2-4186-9483-f4f506072a0e.png",
+                "width": 275,
+                "height": 183
+              },
+              "model": {
+                "key": "793efc5c-33c7-40b0-8ffa-0ca646017f39",
+                "hash": "blake3:be4ead3092dc4456078d1978ace996807c8092584993eb5e32c0fa33bad2e711",
+                "name": "ip-adapter_sdxl_vit-h",
+                "base": "sdxl",
+                "type": "ip_adapter"
+              },
+              "beginEndStepPct": [
+                0,
+                1
+              ],
+              "method": "full",
+              "clipVisionModel": "ViT-H",
+              "weight": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "regional_guidance:VnoW0kgQba",
+        "name": null,
+        "isLocked": false,
+        "type": "regional_guidance",
+        "isEnabled": true,
+        "objects": [
+          {
+            "id": "brush_line:P8pnuslEnO",
+            "type": "brush_line",
+            "points": [
+              182,
+              651,
+              171,
+              652,
+              158,
+              658,
+              141,
+              668,
+              111,
+              692,
+              88,
+              713,
+              71,
+              744,
+              69,
+              751,
+              71,
+              756,
+              79,
+              761,
+              95,
+              766,
+              109,
+              767,
+              135,
+              752,
+              154,
+              738,
+              173,
+              723,
+              187,
+              708,
+              202,
+              689,
+              215,
+              667,
+              219,
+              652,
+              220,
+              640,
+              214,
+              616,
+              210,
+              609,
+              201,
+              600,
+              187,
+              592,
+              182,
+              591,
+              176,
+              591,
+              167,
+              595,
+              157,
+              604,
+              138,
+              627,
+              120,
+              663,
+              106,
+              704,
+              92,
+              772,
+              97,
+              799,
+              112,
+              813,
+              124,
+              815,
+              143,
+              815,
+              182,
+              799,
+              216,
+              781,
+              254,
+              757,
+              290,
+              728,
+              321,
+              697,
+              339,
+              671,
+              350,
+              648,
+              353,
+              630,
+              352,
+              625,
+              346,
+              621,
+              339,
+              619,
+              329,
+              618,
+              314,
+              623,
+              244,
+              658,
+              165,
+              701,
+              115,
+              742,
+              36,
+              825,
+              15,
+              858,
+              7,
+              876,
+              15,
+              877,
+              28,
+              870,
+              71,
+              829,
+              98,
+              794,
+              135,
+              733,
+              150,
+              706,
+              154,
+              689,
+              154,
+              682,
+              148,
+              677,
+              136,
+              676,
+              129,
+              678,
+              116,
+              687,
+              105,
+              702,
+              88,
+              730,
+              87,
+              737,
+              97,
+              737,
+              119,
+              725,
+              149,
+              705,
+              188,
+              672,
+              221,
+              633,
+              252,
+              589,
+              253,
+              580,
+              240,
+              584,
+              212,
+              619,
+              179,
+              671,
+              144,
+              749,
+              114,
+              825,
+              90,
+              909,
+              91,
+              914,
+              115,
+              900,
+              144,
+              871,
+              177,
+              828,
+              212,
+              762,
+              248,
+              709,
+              273,
+              667,
+              282,
+              644,
+              276,
+              646,
+              265,
+              665,
+              254,
+              694,
+              243,
+              742,
+              238,
+              801,
+              238,
+              813,
+              243,
+              814,
+              254,
+              799,
+              276,
+              756,
+              319,
+              659,
+              339,
+              604
+            ],
+            "strokeWidth": 40,
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            },
+            "clip": {
+              "x": -127.84177997527811,
+              "y": -60.756489493201485,
+              "width": 493.6464771322621,
+              "height": 1145.512978986403
+            }
+          },
+          {
+            "id": "brush_line:mKTNshRXqM",
+            "type": "brush_line",
+            "points": [
+              198,
+              700,
+              200,
+              708,
+              201,
+              747,
+              203,
+              758,
+              207,
+              766,
+              212,
+              771,
+              220,
+              771,
+              229,
+              767,
+              243,
+              756,
+              271,
+              702,
+              273,
+              681,
+              271,
+              677,
+              259,
+              676,
+              239,
+              682,
+              196,
+              716
+            ],
+            "strokeWidth": 40,
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            },
+            "clip": {
+              "x": -127.84177997527811,
+              "y": -60.756489493201485,
+              "width": 493.6464771322621,
+              "height": 1145.512978986403
+            }
+          }
+        ],
+        "fill": {
+          "style": "solid",
+          "color": {
+            "r": 250,
+            "g": 225,
+            "b": 80
+          }
+        },
+        "opacity": 0.5,
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "autoNegative": false,
+        "positivePrompt": "Regional guidance text prompt",
+        "negativePrompt": null,
+        "referenceImages": []
+      },
+      {
+        "id": "regional_guidance:LSlb8GSiv5",
+        "name": null,
+        "isLocked": false,
+        "type": "regional_guidance",
+        "isEnabled": true,
+        "objects": [
+          {
+            "id": "rect:3r6qVXa3Oj",
+            "type": "rect",
+            "rect": {
+              "x": 344,
+              "y": 85,
+              "width": 513,
+              "height": 525
+            },
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            }
+          }
+        ],
+        "fill": {
+          "style": "solid",
+          "color": {
+            "r": 220,
+            "g": 144,
+            "b": 101
+          }
+        },
+        "opacity": 0.5,
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "autoNegative": false,
+        "positivePrompt": null,
+        "negativePrompt": null,
+        "referenceImages": [
+          {
+            "id": "regional_guidance_ip_adapter:zAhUQ4cocB",
+            "ipAdapter": {
+              "type": "ip_adapter",
+              "image": {
+                "image_name": "f44a8284-222b-4d64-9055-3e1f8f774eb1.png",
+                "width": 275,
+                "height": 183
+              },
+              "model": {
+                "key": "793efc5c-33c7-40b0-8ffa-0ca646017f39",
+                "hash": "blake3:be4ead3092dc4456078d1978ace996807c8092584993eb5e32c0fa33bad2e711",
+                "name": "ip-adapter_sdxl_vit-h",
+                "base": "sdxl",
+                "type": "ip_adapter"
+              },
+              "beginEndStepPct": [
+                0,
+                1
+              ],
+              "method": "composition",
+              "clipVisionModel": "ViT-H",
+              "weight": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+    "positive_prompt": "banana sushi, botanical illustration",
+  "negative_prompt": "",
+  "seed": 2441735332,
+  "model": {
+    "key": "9a512916-abce-4a65-8853-2fb32be75f2b",
+    "hash": "7c709aa82ef0ee34890f0fc9abe0f39f0d1012287d3989922b5c3a8ae84db23d",
+    "name": "Juggernaut",
+    "base": "sdxl",
+    "type": "main"
+  }
+}
+

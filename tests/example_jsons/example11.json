@@ -1,0 +1,28 @@
+{
+    "model": "stable diffusion",
+    "model_weights": "stable-diffusion-1.5",
+    "model_hash": "cc6cb27103417325ff94f52b7a5d2dde45a7515b25c255d8e396c90014281516",
+    "app_id": "invoke-ai/InvokeAI",
+    "app_version": "v2.2.4",
+    "image": {
+        "prompt": [
+            {
+                "prompt": "waitress serving banana sushi [bad anatomy] [extra limbs]",
+                "weight": 1.0
+            }
+        ],
+        "steps": 30,
+        "cfg_scale": 7.5,
+        "threshold": 0,
+        "perlin": 0,
+        "height": 704,
+        "width": 576,
+        "seed": 2519998931,
+        "seamless": false,
+        "hires_fix": false,
+        "type": "txt2img",
+        "postprocessing": null,
+        "sampler": "k_euler_a",
+        "variations": []
+    }
+}

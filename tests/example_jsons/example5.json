@@ -1,0 +1,286 @@
+    { "canvas_v2_metadata": {
+        "referenceImages": [],
+        "controlLayers": [],
+        "inpaintMasks": [
+            {
+                "id": "inpaint_mask:AVnGu8gvWJ",
+                "name": null,
+                "type": "inpaint_mask",
+                "isEnabled": true,
+                "isLocked": false,
+                "objects": [
+                    {
+                        "id": "brush_line:LLGtMSMjcK",
+                        "type": "brush_line",
+                        "points": [
+                            373,
+                            708,
+                            363,
+                            705,
+                            353,
+                            711,
+                            350,
+                            716,
+                            350,
+                            721,
+                            353,
+                            725,
+                            363,
+                            727,
+                            367,
+                            724,
+                            367,
+                            719,
+                            362,
+                            717,
+                            350,
+                            717,
+                            338,
+                            721,
+                            338,
+                            727,
+                            345,
+                            728,
+                            350,
+                            723,
+                            353,
+                            716,
+                            353,
+                            709,
+                            351,
+                            704,
+                            346,
+                            701,
+                            339,
+                            354,
+                            732,
+                            351,
+                            737
+                        ],
+                        "strokeWidth": 50,
+                        "color": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 1
+                        },
+                        "clip": {
+                            "x": 38.666666666666664,
+                            "y": 49.333333333333336,
+                            "width": 994.6666666666666,
+                            "height": 1354.6666666666667
+                        }
+                    },
+                    {
+                        "id": "brush_line:ocRhB8AFuI",
+                        "type": "brush_line",
+                        "points": [
+                            353,
+                            745,
+                            371,
+                            743,
+                            377,
+                            740,
+                            386,
+                            731,
+                            389,
+                            720,
+                            371,
+                            719,
+                            362,
+                            728,
+                            361,
+                            733
+                        ],
+                        "strokeWidth": 50,
+                        "color": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 1
+                        },
+                        "clip": {
+                            "x": 38.666666666666664,
+                            "y": 49.333333333333336,
+                            "width": 994.6666666666666,
+                            "height": 1354.6666666666667
+                        }
+                    },
+                    {
+                        "id": "brush_line:nichy7YpMT",
+                        "type": "brush_line",
+                        "points": [
+                            526,
+                            685,
+                            511,
+                            709,
+                            506,
+                            720,
+                            511,
+                            719,
+                            517,
+                            711,
+                            523,
+                            699,
+                            526,
+                            688,
+                            526,
+                            699,
+                            519,
+                            712,
+                            515,
+                            717,
+                            510,
+                            719
+                        ],
+                        "strokeWidth": 50,
+                        "color": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 1
+                        },
+                        "clip": {
+                            "x": 38.666666666666664,
+                            "y": 49.333333333333336,
+                            "width": 994.6666666666666,
+                            "height": 1354.6666666666667
+                        }
+                    },
+                    {
+                        "id": "brush_line:Qrd4NBm4jT",
+                        "type": "brush_line",
+                        "points": [
+                            514,
+                            707,
+                            514,
+                            689,
+                            526,
+                            667,
+                            527,
+                            656,
+                            533,
+                            659,
+                            533,
+                            679,
+                            530,
+                            691
+                        ],
+                        "strokeWidth": 50,
+                        "color": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 1
+                        },
+                        "clip": {
+                            "x": 38.666666666666664,
+                            "y": 49.333333333333336,
+                            "width": 994.6666666666666,
+                            "height": 1354.6666666666667
+                        }
+                    },
+                    {
+                        "id": "brush_line:sDJXfmPqZb",
+                        "type": "brush_line",
+                        "points": [
+                            323,
+                            753,
+                            331,
+                            760,
+                            338,
+                            760,
+                            362,
+                            752
+                        ],
+                        "strokeWidth": 50,
+                        "color": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 1
+                        },
+                        "clip": {
+                            "x": 38.666666666666664,
+                            "y": 49.333333333333336,
+                            "width": 994.6666666666666,
+                            "height": 1354.6666666666667
+                        }
+                    }
+                ],
+                "opacity": 1,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "fill": {
+                    "style": "diagonal",
+                    "color": {
+                        "r": 121,
+                        "g": 157,
+                        "b": 219
+                    }
+                }
+            }
+        ],
+        "rasterLayers": [
+            {
+                "id": "raster_layer:hbizIpQ5Ay",
+                "name": null,
+                "type": "raster_layer",
+                "isEnabled": true,
+                "isLocked": false,
+                "objects": [
+                    {
+                        "id": "image:8BFbhIZVe9",
+                        "type": "image",
+                        "image": {
+                            "image_name": "b32cbcd6-7577-4c7d-9654-73d0d9c7302b.png",
+                            "width": 880,
+                            "height": 1184
+                        }
+                    }
+                ],
+                "opacity": 1,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            {
+                "id": "raster_layer:8l6bJNl2kv",
+                "name": null,
+                "type": "raster_layer",
+                "isEnabled": true,
+                "isLocked": false,
+                "objects": [
+                    {
+                        "id": "image:kE8IPwi0Ng",
+                        "type": "image",
+                        "image": {
+                            "image_name": "6260518c-ebc8-4faa-852e-ea2c4ba80069.png",
+                            "width": 880,
+                            "height": 1184
+                        }
+                    }
+                ],
+                "opacity": 1,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "regionalGuidance": []
+    },
+    "positive_prompt": "banana sushi",
+    "negative_prompt": "",
+    "seed": 0,
+    "model": {
+        "key": "799afdeb-febc-4d87-b4d5-188ed8a75bf4",
+        "hash": "blake3:62cc0579770e9d621141bc87679fb3e1e6120ea78cb00038f76c9b00d322f958",
+        "name": "Juggernaut",
+        "base": "sdxl",
+        "type": "main"
+    }
+}

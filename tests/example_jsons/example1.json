@@ -1,0 +1,31 @@
+{
+  "generation_mode": "flux2_txt2img",
+  "positive_prompt": "banana sushi",
+  "width": 880,
+  "height": 1184,
+  "seed": 1838945597,
+  "steps": 4,
+  "scheduler": "euler",
+  "model": {
+    "key": "eb888845-80e9-41b9-b9ce-d710d357c89a",
+    "hash": "blake3:7e144432a5cec1240741505e42f327c7c1cfc181f49d94e50f473c599713d801",
+    "name": "FLUX.2 Klein 4B (FP8)",
+    "base": "flux2",
+    "type": "main"
+  },
+  "vae": {
+    "key": "f5341820-19eb-433d-832e-ac7cd6b10804",
+    "hash": "blake3:531855de70db993d0f6181f82cde27d15411d58b7ffa3b2fdce2b9434c0173c2",
+    "name": "FLUX.2 VAE",
+    "base": "flux2",
+    "type": "vae"
+  },
+  "qwen3_encoder": {
+    "key": "911a2955-fac7-41de-bc89-3f601efcbebe",
+    "hash": "blake3:88c0dd9c5328b0dab205fd92c8532c0a0781598080910262447d85f01d30e30f",
+    "name": "Z-Image Qwen3 Text Encoder (quantized)",
+    "base": "any",
+    "type": "qwen3_encoder"
+  },
+  "app_version": "6.10.0.post1"
+}

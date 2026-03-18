@@ -1,0 +1,24 @@
+{
+    "generation_mode": "sdxl_txt2img",
+    "positive_prompt": "washing machine schematic",
+    "negative_prompt": "",
+    "width": 1024,
+    "height": 1024,
+    "seed": 2833093276,
+    "rand_device": "cpu",
+    "cfg_scale": 7.5,
+    "cfg_rescale_multiplier": 0.0,
+    "steps": 24,
+    "scheduler": "euler",
+    "model": {
+        "model_name": "miamodelSFWNSFWSDXL_v30",
+        "base_model": "sdxl",
+        "model_type": "main"
+    },
+    "vae": {
+        "model_name": "sdxl-vae-fp16-fix",
+        "base_model": "sdxl"
+    },
+    "positive_style_prompt": "washing machine schematic",
+    "negative_style_prompt": ""
+}
